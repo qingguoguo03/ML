@@ -113,9 +113,13 @@ def stoGradAscent1(dataArrIn, classLabels, numIter=150):
     return weights, weightsDynamic
 
 
-dataLi, label = loadDataSet()
-# weights, weightsDynamic = gradAscent(dataLi, label)
-# print('weight: ', weights)
-weights, weightsDynamic = stoGradAscent1(dataLi, label, 200)
-plotBestFit(weights, dataLi, label)
-# plotWeights(weightsDynamic)
+if __name__ == '__main__':
+
+    # dataLi, label = loadDataSet()
+    # # weights, weightsDynamic = gradAscent(dataLi, label)
+    # # print('weight: ', weights)
+    # weights, weightsDynamic = stoGradAscent1(dataLi, label, 200)
+    # plotBestFit(weights, dataLi, label)
+    # plotWeights(weightsDynamic)
+    a = 5
+    print(a)
