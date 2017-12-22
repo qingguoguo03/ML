@@ -1,8 +1,10 @@
-import requests
 import os
-import pandas as pd
+
 import numpy as np
-from LogisticTest import stoGradAscent1, sigmoid
+import pandas as pd
+import requests
+
+from MLInAction.LogisticTest import stoGradAscent1, sigmoid
 
 URL_1 = 'http://archive.ics.uci.edu/ml/machine-learning-databases/horse-colic/horse-colic.data'
 URL_2 = 'http://archive.ics.uci.edu/ml/machine-learning-databases/horse-colic/horse-colic.test'
